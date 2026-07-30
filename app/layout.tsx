@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   title: "Bianca Hench Cosmetic Studio | Luxury PMU & Beauty Services",
   description: "Experience luxury permanent makeup and beauty services at Bianca Hench Cosmetic Studio. High-end, exclusive cosmetics and accessories.",
   keywords: ["PMU", "permanent makeup", "cosmetics", "luxury beauty", "nano brow", "microblading"],
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     title: "Bianca Hench Cosmetic Studio",
     description: "Luxury PMU & Beauty Services",
