@@ -13,14 +13,14 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image
-              src="/images/logo.png"
-              alt="Bianca Hench Cosmetic Studio"
-              width={250}
-              height={80}
-              className="h-16 w-auto"
-              priority
-            />
+            <div className="h-16 flex items-center">
+              <span className="font-serif text-2xl md:text-3xl text-luxury-brown">
+                Bianca Hench
+              </span>
+              <span className="ml-3 text-xs text-luxury-brown-light tracking-widest hidden sm:block">
+                COSMETIC STUDIO
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

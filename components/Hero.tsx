@@ -56,16 +56,14 @@ export default function Hero() {
               {/* Decorative frame */}
               <div className="absolute inset-0 bg-gradient-to-br from-luxury-teal to-luxury-peach rounded-full blur-2xl opacity-30 animate-pulse"></div>
               
-              {/* Avatar Image */}
-              <div className="relative z-10 w-full h-full rounded-full flex items-center justify-center border-4 border-white shadow-2xl overflow-hidden bg-luxury-peach/20">
-                <Image
-                  src="/images/avatar.jpg"
-                  alt="Bianca Hench - Master PMU Artist"
-                  width={400}
-                  height={400}
-                  className="w-full h-full object-cover"
-                  priority
-                />
+              {/* Avatar Image - Styled Placeholder */}
+              <div className="relative z-10 w-full h-full rounded-full flex items-center justify-center border-4 border-white shadow-2xl overflow-hidden bg-gradient-to-br from-luxury-peach via-luxury-cream to-luxury-teal">
+                <div className="text-center p-8">
+                  <div className="font-serif text-6xl md:text-7xl text-luxury-brown mb-4">BH</div>
+                  <div className="text-luxury-brown-light text-lg">
+                    Master PMU Artist
+                  </div>
+                </div>
               </div>
             </div>
             
