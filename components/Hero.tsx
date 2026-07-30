@@ -31,7 +31,8 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
                 href="#contact"
-                className="bg-luxury-teal hover:bg-luxury-teal-dark text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
+                className="bg-luxury-teal hover:bg-luxury-teal-dark text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl text-center"
+                style={{ backgroundColor: '#5FB3B3', color: '#ffffff' }}
               >
                 Book Consultation
               </a>
