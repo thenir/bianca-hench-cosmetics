@@ -96,10 +96,14 @@ export default function ProductsPage() {
         {/* Avatar/Testimonial Section */}
         <section className="py-16 px-4 bg-white">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
-            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-luxury-teal shadow-xl flex-shrink-0 bg-gradient-to-br from-luxury-peach via-luxury-cream to-luxury-teal flex items-center justify-center">
-              <div className="text-center">
-                <div className="font-serif text-5xl text-luxury-brown">BH</div>
-              </div>
+            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-luxury-teal shadow-xl flex-shrink-0 bg-white">
+              <Image
+                src="/images/avatar.png"
+                alt="Bianca Hench"
+                width={192}
+                height={192}
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <p className="text-lg text-luxury-brown-light italic mb-4">
