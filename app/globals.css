@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF7F5;
+  --foreground: #4A3C3C;
+  --luxury-peach: #E8C4B8;
+  --luxury-teal: #5FB3B3;
+  --luxury-gold: #C9A882;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-montserrat);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
