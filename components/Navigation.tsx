@@ -26,6 +26,12 @@ export default function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link 
+              href="/whats-trending" 
+              className="text-luxury-brown hover:text-luxury-teal transition-colors font-medium"
+            >
+              What's Trending
+            </Link>
+            <Link 
               href="/" 
               className="text-luxury-brown hover:text-luxury-teal transition-colors font-medium"
             >
@@ -83,6 +89,13 @@ export default function Navigation() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden py-4 space-y-4">
+            <Link 
+              href="/whats-trending" 
+              className="block text-luxury-brown hover:text-luxury-teal transition-colors font-medium"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              What's Trending
+            </Link>
             <Link 
               href="/" 
               className="block text-luxury-brown hover:text-luxury-teal transition-colors font-medium"
