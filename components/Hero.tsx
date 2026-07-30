@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-luxury-cream via-luxury-peach/20 to-luxury-teal/10">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-luxury-cream via-luxury-peach/20 to-luxury-teal/10 pt-24">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-luxury-peach/30 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-luxury-teal/20 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
@@ -56,18 +56,16 @@ export default function Hero() {
               {/* Decorative frame */}
               <div className="absolute inset-0 bg-gradient-to-br from-luxury-teal to-luxury-peach rounded-full blur-2xl opacity-30 animate-pulse"></div>
               
-              {/* Avatar placeholder - Replace with actual image */}
-              <div className="relative z-10 w-full h-full bg-luxury-peach/30 rounded-full flex items-center justify-center border-4 border-white shadow-2xl overflow-hidden">
-                {/* TODO: Replace with actual avatar image */}
-                <div className="text-center p-8">
-                  <div className="text-6xl mb-4">✨</div>
-                  <p className="text-luxury-brown font-serif text-2xl">
-                    Bianca Hench
-                  </p>
-                  <p className="text-luxury-brown-light mt-2">
-                    Master PMU Artist
-                  </p>
-                </div>
+              {/* Avatar Image */}
+              <div className="relative z-10 w-full h-full rounded-full flex items-center justify-center border-4 border-white shadow-2xl overflow-hidden bg-luxury-peach/20">
+                <Image
+                  src="/images/avatar.jpg"
+                  alt="Bianca Hench - Master PMU Artist"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
             </div>
             

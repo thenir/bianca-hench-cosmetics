@@ -1,3 +1,4 @@
+import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import LeadForm from '@/components/LeadForm';
@@ -5,9 +6,11 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      {/* Hero Section */}
-      <Hero />
+    <>
+      <Navigation />
+      <main className="min-h-screen">
+        {/* Hero Section */}
+        <Hero />
 
       {/* Services Section */}
       <section id="services">
@@ -51,6 +54,7 @@ export default function Home() {
       {/* Footer */}
       <Footer />
     </main>
+    </>
   );
 }
 
